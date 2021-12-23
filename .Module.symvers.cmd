@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Module.symvers := sed 's/ko$$/o/' /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Module.symvers -e -i Module.symvers   -T -

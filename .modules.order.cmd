@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/modules.order := {   echo /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.ko; :; } | awk '!x[$$0]++' - > /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/modules.order

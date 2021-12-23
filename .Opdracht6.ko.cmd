@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.ko /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.o /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.mod.o;  true

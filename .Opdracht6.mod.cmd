@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.mod := { echo  /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.o;  echo; } > /home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.mod
