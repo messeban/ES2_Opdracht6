@@ -581,35 +581,6 @@ deps_/home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.o := \
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
-  include/linux/gpio.h \
-    $(wildcard include/config/gpiolib.h) \
-    $(wildcard include/config/arch/have/custom/gpio/h.h) \
-  arch/arm/include/asm/gpio.h \
-    $(wildcard include/config/arch/nr/gpio.h) \
-  include/asm-generic/gpio.h \
-  include/linux/gpio/driver.h \
-    $(wildcard include/config/irq/domain/hierarchy.h) \
-    $(wildcard include/config/gpio/generic.h) \
-    $(wildcard include/config/gpiolib/irqchip.h) \
-    $(wildcard include/config/of/gpio.h) \
-    $(wildcard include/config/of.h) \
-    $(wildcard include/config/pinctrl.h) \
-  include/linux/device.h \
-    $(wildcard include/config/debug/devres.h) \
-    $(wildcard include/config/energy/model.h) \
-    $(wildcard include/config/generic/msi/irq/domain.h) \
-    $(wildcard include/config/generic/msi/irq.h) \
-    $(wildcard include/config/dma/ops.h) \
-    $(wildcard include/config/dma/declare/coherent.h) \
-    $(wildcard include/config/dma/cma.h) \
-    $(wildcard include/config/arch/has/sync/dma/for/device.h) \
-    $(wildcard include/config/arch/has/sync/dma/for/cpu.h) \
-    $(wildcard include/config/arch/has/sync/dma/for/cpu/all.h) \
-    $(wildcard include/config/dma/ops/bypass.h) \
-    $(wildcard include/config/devtmpfs.h) \
-    $(wildcard include/config/sysfs/deprecated.h) \
-  include/linux/dev_printk.h \
-  include/linux/ratelimit.h \
   include/linux/sched.h \
     $(wildcard include/config/virt/cpu/accounting/native.h) \
     $(wildcard include/config/sched/info.h) \
@@ -722,6 +693,35 @@ deps_/home/pi/Documents/rpi-kmod-samples/modules/Opdracht6/Opdracht6.o := \
   include/linux/task_work.h \
   include/uapi/linux/rseq.h \
   include/linux/kcsan.h \
+  include/linux/gpio.h \
+    $(wildcard include/config/gpiolib.h) \
+    $(wildcard include/config/arch/have/custom/gpio/h.h) \
+  arch/arm/include/asm/gpio.h \
+    $(wildcard include/config/arch/nr/gpio.h) \
+  include/asm-generic/gpio.h \
+  include/linux/gpio/driver.h \
+    $(wildcard include/config/irq/domain/hierarchy.h) \
+    $(wildcard include/config/gpio/generic.h) \
+    $(wildcard include/config/gpiolib/irqchip.h) \
+    $(wildcard include/config/of/gpio.h) \
+    $(wildcard include/config/of.h) \
+    $(wildcard include/config/pinctrl.h) \
+  include/linux/device.h \
+    $(wildcard include/config/debug/devres.h) \
+    $(wildcard include/config/energy/model.h) \
+    $(wildcard include/config/generic/msi/irq/domain.h) \
+    $(wildcard include/config/generic/msi/irq.h) \
+    $(wildcard include/config/dma/ops.h) \
+    $(wildcard include/config/dma/declare/coherent.h) \
+    $(wildcard include/config/dma/cma.h) \
+    $(wildcard include/config/arch/has/sync/dma/for/device.h) \
+    $(wildcard include/config/arch/has/sync/dma/for/cpu.h) \
+    $(wildcard include/config/arch/has/sync/dma/for/cpu/all.h) \
+    $(wildcard include/config/dma/ops/bypass.h) \
+    $(wildcard include/config/devtmpfs.h) \
+    $(wildcard include/config/sysfs/deprecated.h) \
+  include/linux/dev_printk.h \
+  include/linux/ratelimit.h \
   include/linux/energy_model.h \
   include/linux/sched/cpufreq.h \
     $(wildcard include/config/cpu/freq.h) \
